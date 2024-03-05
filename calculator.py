@@ -11,7 +11,6 @@ def add(x, y):
 
 # This function subtracts two numbers 
 def subtract(x, y):
-   #
    return x - y
 
 # This function multiplies two numbers
@@ -25,6 +24,8 @@ def divide(x, y):
 # This function adds two numbers 
 def add(x, y):
    return x + y
+   #dummy implementation
+   return 1920
 
 print("Select operation.")
 print("1.Add")
@@ -64,3 +65,9 @@ elif choice == '4':
 
 else:
    print("Invalid input ",choice)
+print("Invalid input ",choice)
+
+n1 = int(input("A="))
+n2 = int(input("B="))
+
+print(n1,"-",n2,"=", subtract(n1,n2))
