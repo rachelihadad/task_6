@@ -33,5 +33,20 @@ num2 = int(input("Enter second number: "))
 
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+if choice == '1':
+   print("should add")
+
+elif choice == '2':
+   print("should sub")
+
+elif choice == '3':
+   print(x,"*",y,"=", multiply(x,y))
+
+elif choice == '4':
+   print("should divide")
+
 else:
    print("Invalid input ",choice)
